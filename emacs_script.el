@@ -1,0 +1,7 @@
+(require 'color-theme)
+(color-theme-initialize)
+(color-theme-xp)
+(find-file "emacs-color.py")
+(end-of-buffer)
+(sit-for 5)
+(save-buffers-kill-terminal)
